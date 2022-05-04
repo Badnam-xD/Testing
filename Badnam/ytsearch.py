@@ -2,7 +2,7 @@ import json
 import logging
 
 from config import BOT_USERNAME
-from SJM.filters import command
+from xD.filters import command
 from pyrogram import Client
 from pyrogram.types import (
     CallbackQuery,
