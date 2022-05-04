@@ -4,8 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from config import BOT_USERNAME
-from SJM.decorators import errors, sudo_users_only
-from SJM.filters import command
+from XDX.decorators import errors, sudo_users_only
+from XDX.filters import command
 
 
 downloads = os.path.realpath("downloads")
