@@ -1,4 +1,4 @@
-# TrickyAbhi Created by Herox
+# BruTalxD Created by Badnam
 
 import io
 from os import path
@@ -11,13 +11,13 @@ import aiofiles
 import aiohttp
 import ffmpeg
 import requests
-from SJM.fonts import CHAT_TITLE
+from XDX.fonts import CHAT_TITLE
 from PIL import Image, ImageDraw, ImageFont
 from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_5
-from SJM.filters import command, other_filters
-from SJM.queues import QUEUE, add_to_queue
-from TrickyAbhi.main import call_py, user
-from SJM.utils import bash
+from XDX.filters import command, other_filters
+from XDX.queues import QUEUE, add_to_queue
+from BruTalxD.main import call_py, user
+from XDX.utils import bash
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
