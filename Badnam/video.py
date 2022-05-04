@@ -5,12 +5,12 @@ import aiohttp
 import aiofiles
 
 from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6, GROUP_SUPPORT, UPDATES_CHANNEL
-from Herox.inline import stream_markup
-from xD.fonts import CHAT_TITLE
+from Badnam.inline import stream_markup
+from XDX.fonts import CHAT_TITLE
 from PIL import Image, ImageDraw, ImageFont
-from xD.filters import command, other_filters
-from xD.queues import QUEUE, add_to_queue
-from TrickyAbhi.main import call_py, user
+from XDX.filters import command, other_filters
+from XDX.queues import QUEUE, add_to_queue
+from BruTalxD.main import call_py, user
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
