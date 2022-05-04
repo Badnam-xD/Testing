@@ -11,8 +11,8 @@ from inspect import getfullargspec
 from sys import version as pyver
 from config import BOT_USERNAME
 from pyrogram import Client
-from SJM.decorators import sudo_users_only
-from SJM.filters import command
+from XDX.decorators import sudo_users_only
+from XDX.filters import command
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 
