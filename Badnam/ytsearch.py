@@ -2,7 +2,7 @@ import json
 import logging
 
 from config import BOT_USERNAME
-from xDx.filters import command
+from XDX.filters import command
 from pyrogram import Client
 from pyrogram.types import (
     CallbackQuery,
