@@ -1,7 +1,7 @@
 import requests
 from pyrogram import Client
 from config import BOT_USERNAME
-from SJM.filters import command
+from XDX.filters import command
 
 @Client.on_message(command(["abhi", f"abhi@{BOT_USERNAME}"]))
 async def asupan(client, message):
