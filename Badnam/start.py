@@ -53,6 +53,7 @@ async def start_private(client: Client, message: Message):
  await message.reply_photo(
         photo=f"https://telegra.ph/file/9cc6f3c56940c224cd7bf.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
+ **
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ [ʙᴀᴅɴᴀᴍ]**""",
         reply_markup=InlineKeyboardMarkup(
