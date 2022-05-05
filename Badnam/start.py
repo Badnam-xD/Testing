@@ -11,8 +11,8 @@ from config import (
     OWNER_NAME,
     UPDATES_CHANNEL,
 )
-from SJM.decorators import sudo_users_only
-from SJM.filters import command
+from XDX.decorators import sudo_users_only
+from XDX.filters import command
 from pyrogram import Client, filters
 from pyrogram import __version__ as pyrover
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -51,11 +51,10 @@ async def _human_time_duration(seconds):
 )
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
-        photo=f"https://telegra.ph/file/a82f511eb98f58a685e32.jpg",
+        photo=f"https://telegra.ph/file/9cc6f3c56940c224cd7bf.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
- **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ [ʙᴀᴅɴᴀᴍ]**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
