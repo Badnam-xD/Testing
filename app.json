@@ -12,30 +12,33 @@
     "env": {
         "SESSION_NAME": {
             "description": "fill with the pyrogram session string",
+            "value": "AQB8XbbX3FMU-3fH5RWD8pwj9bQ8asE96dtD4VtFKGFBXwEKeOlUF3BjiTvbkHWh_E2JElOQt3lQLNofKyzdLr-alPFXXgKqj1ley4dEJlxHZ7bf2diWchK0UxpSA2Mj-fKxllKBgL5gTudIXRC0nQhA1VAH3QBqju31lCjEBnErHV4zMSbMOphtUZUU0bkv8E1CDgdGXsX7dyp7SSoG1M3uYMJtYLLaRQbObp7ngi4ypv08aoL5krTw9K3OXcYOs0X8AqFdXYR04PzKrUT6BxjwUJaT6BmH9OZ71TBfldWgXMR94IaJuHJZ-bWdj1Kc1re0p_1TIks8Fyvez94j92bSAAAAATTbaBQA",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token from @BotFather",
+            "value": "5350221782:AAGIDrSn5bvXUwc4jbUgy5WjsVdGRA9O7vU",
             "required": true
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username from @BotFather Note put without '@' ",
+            "value": "BrutalxMusicbot",
             "required": true
         },
         "OWNER_NAME": {
             "description": "fill YOUR USERNAME WITHOUT '@' .",
-            "value": "ABHIISH3K_xD",
+            "value": "Its_BruTal_xD",
             "required": false
         },
         "ALIVE_NAME": {
             "description": "PUT YOUR BOT NAME .",
-            "value": "𝗛𝗘𝗥𝗢𝗫 𝗠𝗨𝗦𝗜𝗖",
+            "value": "BADNAM-X",
             "required": false
             
         },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
-            "value": "𝗛𝗘𝗥𝗢𝗫 𝗠𝗨𝗦𝗜𝗖",
+            "value": "Badnam",
             "required": true
         },
          "DURATION_LIMIT": {
@@ -45,30 +48,32 @@
         },
         "GROUP_SUPPORT": {
             "description": "PUT YOUR group username without @.",
-            "value": "TrickyAbhii_Op",
+            "value": "xD_Devloper",
             "required": true
         },
         "UPDATES_CHANNEL": {
             "description": "PUT YOUR channel username without @.",
-            "value": "Techno_Trickop",
+            "value": "Its_Badnam_Op",
             "required": true
         },
-    
-        "API_ID": {
+            "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
+            "value": "16573502",
             "required": true
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
+            "value": "7e5f727b94bdea1676e3679cfee9059a",
             "required": true
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
+            "value": "Wtf_Brutal",
             "required": true
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space) .",
-            "value": "5124507794 5198403647",
+            "value": "5154093666",
             "required": true
         }
         
