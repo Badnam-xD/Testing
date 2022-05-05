@@ -61,17 +61,17 @@ async def start_private(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌸 ᴏᴡɴᴇʀ 🌸", url="https://t.me/ROCKSTAR_PRINCE_OP")
+                        "• Bᴀᴅɴᴀᴍ ", url="https://t.me/ROCKSTAR_PRINCE_OP")
                   ],[
                     InlineKeyboardButton(
-                        "💡 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Sanki_BOTs"
+                        "• Uᴘᴅᴀᴛᴇs", url="https://t.me/Sanki_BOTs"
                     ),
                     InlineKeyboardButton(
-                        "ʀᴇᴘᴏ 🎈", url="https://github.com/TheFelliX/SakshiXMusic"
+                        "• Rᴇᴘᴏ", url="https://github.com/TheFelliX/SakshiXMusic"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "⁉️ ʜᴇʟᴘ ‼️", url="https://telegra.ph/R%E1%B4%87%E1%B4%85-L%C9%AA%C9%A2%CA%9C%E1%B4%9B-M%E1%B4%9Cs%C9%AA%E1%B4%84-S%E1%B4%87%CA%80%E1%B4%A0%E1%B4%87%CA%80-04-12"
+                        "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                     )]
             ]
         ),
