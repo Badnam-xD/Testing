@@ -76,11 +76,10 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴛɪᴏɴ ʙᴏᴛ's ᴍ�
                 ],[ 
                     InlineKeyboardButton(
                         "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
-                    )]
+                    )
+                ],
             ]
         ),
-    )
-
 
 @Client.on_message(
     command(["start", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited
