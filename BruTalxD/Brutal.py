@@ -7,4 +7,4 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SUPPORT = getenv("SUPPORT", "TrickyAbhii_Op")
+SUPPORT = getenv("SUPPORT", "XCodeSupport")
