@@ -69,19 +69,11 @@ async def cb_start(_, query: CallbackQuery):
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_Brutal_xD"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "• Sᴏᴜʀᴄᴇ ", url="https://github.com/SJMxADITI/TrickyMusic"
                     )
                 ],
             ]
