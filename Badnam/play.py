@@ -241,7 +241,7 @@ async def play(c: Client, m: Message):
         if len(m.command) < 2:
          await m.reply_photo(
                      photo=f"{IMG_5}",
-                    caption="💬**Usage: /play Give a Title Song To Play Music or join @aboutez**"
+                    caption="💬**Usage: /play Give a Title Song To Play Music or join @HousefullXd**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
@@ -257,7 +257,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**Downloading**\n\n0% ■■■■■■■□□□ 100%"
+        f"**Downloading....**\n\n0% ■■■■■■■□□□ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
