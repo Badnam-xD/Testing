@@ -26,7 +26,7 @@ async def ytsearch(_, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🗑 Close", callback_data="close",
+                    "°Cʟᴏꜱᴇ", callback_data="close",
                 )
             ]
         ]
@@ -42,10 +42,10 @@ async def ytsearch(_, message: Message):
         i = 0
         text = ""
         while i < 5:
-            text += f"🏷 **Name:** __{results[i]['title']}__\n"
-            text += f"⏱ **Duration:** `{results[i]['duration']}`\n"
-            text += f"👀 **Views:** `{results[i]['views']}`\n"
-            text += f"📣 **Channel:** {results[i]['channel']}\n"
+            text += f"🏷 **Nᴀᴍᴇ:** __{results[i]['title']}__\n"
+            text += f"⏱ **Dᴜʀᴀᴛɪᴏɴ:** `{results[i]['duration']}`\n"
+            text += f"👀 **Vɪᴇᴡꜱ:** `{results[i]['views']}`\n"
+            text += f"📣 **Cʜᴀɴɴᴇʟ:** {results[i]['channel']}\n"
             text += f"🔗: https://www.youtube.com{results[i]['url_suffix']}\n\n"
             i += 1
         await m.edit(text, reply_markup=keyboard, disable_web_page_preview=True)
