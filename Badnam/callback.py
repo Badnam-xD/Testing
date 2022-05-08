@@ -92,16 +92,16 @@ async def cb_cmd(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **Hello !**
 » **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴs 🔭 !**
-⚡ Powered by [O W N E R](https://t.me/Herox_xd)""",
+⚡ Powered by [O W N E R](https://t.me/{OWNER_NAME})""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴏᴍᴇ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_basic"),
-                    InlineKeyboardButton("sᴏᴍᴇ ᴀᴅᴠᴀɴᴄᴇ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cb_advance"),
+                    InlineKeyboardButton("• Mᴜꜱɪᴄ Cᴏᴍᴍᴀɴᴅꜱ •", callback_data="cb_basic"),
+                    InlineKeyboardButton("• Sᴜᴅᴏ ᴜꜱᴇʀ •", callback_data="cb_advance"),
                 ],
-                [InlineKeyboardButton("sᴏᴍᴇ ғᴜɴ ᴄᴏᴍᴍᴀɴᴅ", callback_data="cb_fun")],
+                [InlineKeyboardButton("• Sᴇᴍx •", callback_data="cb_fun")],
                
-                [InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_start")],
+                [InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_start")],
             ]
         ),
     )
@@ -122,9 +122,9 @@ async def cb_basic(_, query: CallbackQuery):
 •  `/mute` - mute assistant in vc
 •  `/lyrics (song name)`
 
-⚡ Powered By [O W N E R](https://t.me/herox_xd) .""",
+⚡ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
+            [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
     )
     
@@ -140,7 +140,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [O W N E R](https://t.me/herox_xd) .""",
+⚡ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -153,13 +153,13 @@ async def cb_fun(_, query: CallbackQuery):
         f"""𝔖𝔢𝔵.. ℭ𝔬𝔪𝔪𝔞𝔫𝔡..
 • `/truth` 🖕
 • `/dare` 🖕 
-• `/sjm` 🖕   
-• `/abhi` 🖕  
+• `/XDX` 🖕   
+• `/tpatp` 🖕  
 • `/tricky` 🖕  
 
-⚡ Powered By [O W N E R](https://t.me/herox_xd) .""",
+⚡ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
+            [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
     )
         
