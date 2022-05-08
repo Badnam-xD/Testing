@@ -12,12 +12,12 @@
     "env": {
         "SESSION_NAME": {
             "description": "fill with the pyrogram session string",
-            "value": "AQB8XbbX3FMU-3fH5RWD8pwj9bQ8asE96dtD4VtFKGFBXwEKeOlUF3BjiTvbkHWh_E2JElOQt3lQLNofKyzdLr-alPFXXgKqj1ley4dEJlxHZ7bf2diWchK0UxpSA2Mj-fKxllKBgL5gTudIXRC0nQhA1VAH3QBqju31lCjEBnErHV4zMSbMOphtUZUU0bkv8E1CDgdGXsX7dyp7SSoG1M3uYMJtYLLaRQbObp7ngi4ypv08aoL5krTw9K3OXcYOs0X8AqFdXYR04PzKrUT6BxjwUJaT6BmH9OZ71TBfldWgXMR94IaJuHJZ-bWdj1Kc1re0p_1TIks8Fyvez94j92bSAAAAATTbaBQA",
+            "value": "AQC49dN_Ns00nnbJ2Cty1Ypxk5hffzPyJ5enoUuuoyT0klWtIju9FyIeXSqefhNcqzHY37eLxdpKn1rgTH9kRzUnx_oxGTjOH_s6bWh7VRTWyH-UernxeDet4rL2OEbciEn3CngLU7TLNZQsEli52oQoTxGYofoTRcYW__eugT9ppytIGiRjBB6zLIee-EZ_SrfjoOooQ68TzMiPzYE4V-AEsbhdy45_1h8uzFvp7hlPNj4jgXKCKP1A9nRjpoiIv0FJAKQQe9ektjNJ2s0BMhdBQH0tMZ6NDHU6_w9LBE2W9EaMAqK4ojOgYwXscqGSIGjPrdesyZNPq2jcr6hYH9xpAAAAATTbaBQA",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token from @BotFather",
-            "value": "5350221782:AAGIDrSn5bvXUwc4jbUgy5WjsVdGRA9O7vU",
+            "value": "5355650552:AAGJ-MCmlg_pIE2D8d9qsa1nCdisWz_HVtI",
             "required": true
         },
         "BOT_USERNAME": {
