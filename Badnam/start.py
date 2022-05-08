@@ -67,14 +67,14 @@ async def start_private(client: Client, message: Message):
                     )
                 ],
                 [InlineKeyboardButton(
-                    "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
+                    "°Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_Brutal_xD"),
+                    InlineKeyboardButton("°Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("°Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_Brutal_xD"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ ", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "°Sᴏᴜʀᴄᴇ ", url=f"https://t.me/Its_Brutal_xD"),
                     )
                 ],
             ]
@@ -93,9 +93,9 @@ async def start_group(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("°Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "• Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "°Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
