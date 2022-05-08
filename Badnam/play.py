@@ -286,7 +286,7 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=image,
-                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname[:22]}]({url}) | `music`\n**⏱ Duration:** `{duration}`\n🎧 **Request by:** {requester}",
+                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **°Nᴀᴍᴇ:** [{songname[:22]}]({url}) | `music`\n**⏱ °Dᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🎧 **°RᴇQᴇꜱᴛᴇᴅ Bʏ:** {requester}",
                             reply_markup=keyboard,
                         )
                     else:
