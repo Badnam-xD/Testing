@@ -29,12 +29,12 @@ async def cbmenu(_, query: CallbackQuery):
               f"⚙️ **settings of** {query.message.chat.title}\n\n⏸ : pause stream\n▶️ : resume stream\n🔇 : mute userbot\n🔊 : unmute userbot\n⏹ : stop stream",
               reply_markup=InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("°⏹", callback_data="cbstop"),
+                      InlineKeyboardButton("°⏸", callback_data="cbpause"),
+                      InlineKeyboardButton("°▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("🔇", callback_data="cbmute"),
-                      InlineKeyboardButton("🔊", callback_data="cbunmute"),
+                      InlineKeyboardButton("°🔇", callback_data="cbmute"),
+                      InlineKeyboardButton("°🔊", callback_data="cbunmute"),
                   ],[
                       InlineKeyboardButton("🗑 Close", callback_data="cls")],
                   ]
@@ -53,8 +53,9 @@ async def cb_start(_, query: CallbackQuery):
     await query.edit_message_text(
        f"""ʜᴇʟʟᴏ [✨](https://telegra.ph/file/9cc6f3c56940c224cd7bf.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
  **────「 [𝐁𝐫𝐮𝐭𝐚𝐥 𝐌𝐮𝐬𝐢𝐜](https://telegra.ph/file/9cc6f3c56940c224cd7bf.jpg) 」────**
+ ** ➖➖➖➖➖➖➖➖➖➖➖➖➖ 
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
- **➖➖➖➖➖➖➖➖➖➖➖➖➖
+ ** ➖➖➖➖➖➖➖➖➖➖➖➖➖
  ‣ Managed By - @Its_Brutal_xD ❥︎
 """,
         reply_markup=InlineKeyboardMarkup(
