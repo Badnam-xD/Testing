@@ -126,15 +126,15 @@ async def play(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton('⏭️', callback_data="skip"),
-                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("°⏹", callback_data="cbstop"),
+                      InlineKeyboardButton("°⏸", callback_data="cbpause"),
+                      InlineKeyboardButton("°⏭️", callback_data="skip"),
+                      InlineKeyboardButton("°▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Techno_Trickop"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/TrickyAbhii_Op"),
+                      InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/Techno_Trickop"),
+                      InlineKeyboardButton("°Group", url=f"https://t.me/TrickyAbhii_Op"),
                   ],[
-                      InlineKeyboardButton("🗑 Close", callback_data="cls")],
+                      InlineKeyboardButton("✒ Close", callback_data="cls")],
                   ]
              )
     if m.sender_chat:
@@ -250,7 +250,7 @@ async def play(c: Client, m: Message):
                             InlineKeyboardButton("~ Support ~", url=f"https://t.me/TrickyAbhii_Op")
                         ],
                         [
-                            InlineKeyboardButton("🗑 Close", callback_data="cls")
+                            InlineKeyboardButton("✒ Close", callback_data="cls")
                         ]
                     ]
                 )
