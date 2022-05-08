@@ -36,7 +36,7 @@ async def cbmenu(_, query: CallbackQuery):
                       InlineKeyboardButton("°🔇", callback_data="cbmute"),
                       InlineKeyboardButton("°🔊", callback_data="cbunmute"),
                   ],[
-                      InlineKeyboardButton("🗑 Close", callback_data="cls")],
+                      InlineKeyboardButton("✒ Cʟᴏꜱᴇ", callback_data="cls")],
                   ]
              ),
          )
@@ -67,14 +67,14 @@ async def cb_start(_, query: CallbackQuery):
                     )
                 ],
                 [InlineKeyboardButton(
-                    "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
+                    "°Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
-                    InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_Brutal_xD"),
+                    InlineKeyboardButton("°Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("°Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_Brutal_xD"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ ", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "• Sᴏᴜʀᴄᴇ •", url="https://t.me/Its_Brutal_xD"
                     )
                 ],
             ]
