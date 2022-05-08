@@ -131,8 +131,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("°⏭️", callback_data="skip"),
                       InlineKeyboardButton("°▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                      InlineKeyboardButton("°Group", url=f"https://t.me/{GROUP_SUPPORT}"),
+                      InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/XCodeBots"),
+                      InlineKeyboardButton("°Group", url=f"https://t.me/XCodeSupport"),
                   ],[
                       InlineKeyboardButton("✒ Close", callback_data="cls")],
                   ]
@@ -246,8 +246,8 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("~ Channel ~", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("~ Channel ~", url=f"https://t.me/XCodeBots"),
+                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/XCodeSupport")
                         ],
                         [
                             InlineKeyboardButton("✒ Close", callback_data="cls")
