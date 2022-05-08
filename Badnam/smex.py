@@ -3,7 +3,7 @@ from pyrogram import Client
 from config import BOT_USERNAME
 from XDX.filters import command
 
-@Client.on_message(command(["tpatp", f"abhi@{BOT_USERNAME}"]))
+@Client.on_message(command(["tpatp", f"tpatp@{BOT_USERNAME}"]))
 async def asupan(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
