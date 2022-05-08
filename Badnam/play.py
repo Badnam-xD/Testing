@@ -132,7 +132,7 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("°▶️", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                      InlineKeyboardButton("°Group", url=f"https://t.me/{OWNER_NAME}"),
+                      InlineKeyboardButton("°Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                   ],[
                       InlineKeyboardButton("✒ Close", callback_data="cls")],
                   ]
@@ -247,7 +247,7 @@ async def play(c: Client, m: Message):
                     [
                         [
                             InlineKeyboardButton("~ Channel ~", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/{OWNER_NAME}")
+                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
                             InlineKeyboardButton("✒ Close", callback_data="cls")
