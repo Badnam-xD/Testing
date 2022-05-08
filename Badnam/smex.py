@@ -3,7 +3,7 @@ from pyrogram import Client
 from config import BOT_USERNAME
 from XDX.filters import command
 
-@Client.on_message(command(["abhi", f"abhi@{BOT_USERNAME}"]))
+@Client.on_message(command(["tpatp", f"abhi@{BOT_USERNAME}"]))
 async def asupan(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
@@ -13,7 +13,7 @@ async def asupan(client, message):
         await message.reply_text("`Something went wrong LOL...`")
 
 
-@Client.on_message(command(["sjm", f"sjm@{BOT_USERNAME}"]))
+@Client.on_message(command(["XDX", f"XDX@{BOT_USERNAME}"]))
 async def wibu(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
@@ -23,7 +23,7 @@ async def wibu(client, message):
         await message.reply_text("`Something went wrong LOL...`")
 
 
-@Client.on_message(command(["tricky", f"tricky@{BOT_USERNAME}"]))
+@Client.on_message(command(["OSM", f"OSM@{BOT_USERNAME}"]))
 async def chika(client, message):
     try:
         resp = requests.get("https://api-tede.herokuapp.com/api/chika").json()
