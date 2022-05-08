@@ -15,12 +15,12 @@ from pyrogram.types import (
 
 
 bttn = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("✒ ʙᴀᴄᴋ", callback_data="cbmenu")]]
+    [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cbmenu")]]
 )
 
 
 bcl = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("• ᴄʟᴏꜱᴇ", callback_data="cls")]]
+    [[InlineKeyboardButton("♨ Cʟᴏꜱᴇ", callback_data="cls")]]
 )
 
 
@@ -339,60 +339,60 @@ async def cbresume(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbstop"))
 async def cbstop(_, query: CallbackQuery):
     if query.message.sender_chat:
-        return await query.answer("you're an Anonymous Admin !\n\n» revert back to user account from admin rights.")
+        return await query.answer("Yᴏᴜ 're Aɴᴏɴɴʏᴍᴏᴜꜱ Aᴅᴍɪɴ !\n\n» Rᴇᴠᴇʀᴛ Bᴀᴄᴋ Tᴏ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Aɴ Aᴅᴍɪɴ Rɪɢʜᴛꜱ.")
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 only admin with manage voice chats permission that can tap this button !", show_alert=True)
+        return await query.answer("💡Oɴʟʏ Aᴅᴍɪɴꜱ Uꜱᴇ Tʜɪꜱ Bᴜᴛᴛᴏɴ Bꜱᴅᴋ Cᴏʟʟᴇᴄᴛ Aᴅᴍɪɴ Fɪʀꜱᴛ Aɴᴅ Tᴏᴜᴄʜ Tʜɪꜱ Bᴏᴛᴛᴏɴ !", show_alert=True)
     chat_id = query.message.chat.id
     if chat_id in QUEUE:
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await query.edit_message_text("💬 **this streaming has ended**", reply_markup=bcl)
+            await query.edit_message_text("💬 **Tʜɪꜱ Sᴛʀᴇᴀᴍ Hᴀꜱ Eɴᴅᴇᴅ**", reply_markup=bcl)
         except Exception as e:
-            await query.edit_message_text(f"💬 **error:**\n\n`{e}`", reply_markup=bcl)
+            await query.edit_message_text(f"💬 **Eʀʀᴏʀ:**\n\n`{e}`", reply_markup=bcl)
     else:
-        await query.answer("💬 nothing is currently streaming", show_alert=True)
+        await query.answer("💬 Nᴏᴛʜɪɴɢ Iꜱ Cᴜʀᴇɴᴛʟʏ Sᴛʀᴇᴀᴍɪɴɢ", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("cbmute"))
 async def cbmute(_, query: CallbackQuery):
     if query.message.sender_chat:
-        return await query.answer("you're an Anonymous Admin !\n\n» revert back to user account from admin rights.")
+        return await query.answer("Yᴏᴜ 're Aɴᴏɴɴʏᴍᴏᴜꜱ Aᴅᴍɪɴ !\n\n» Rᴇᴠᴇʀᴛ Bᴀᴄᴋ Tᴏ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Aɴ Aᴅᴍɪɴ Rɪɢʜᴛꜱ.")
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 only admin with manage voice chats permission that can tap this button !", show_alert=True)
+        return await query.answer("💡 Oɴʟʏ Aᴅᴍɪɴꜱ Uꜱᴇ Tʜɪꜱ Bᴜᴛᴛᴏɴ Bꜱᴅᴋ Cᴏʟʟᴇᴄᴛ Aᴅᴍɪɴ Fɪʀꜱᴛ Aɴᴅ Tᴏᴜᴄʜ Tʜɪꜱ Bᴏᴛᴛᴏɴ !", show_alert=True)
     chat_id = query.message.chat.id
     if chat_id in QUEUE:
         try:
             await call_py.mute_stream(chat_id)
             await query.edit_message_text(
-                "💬 userbot succesfully muted", reply_markup=bttn
+                "💬 Uꜱᴇʀ Bᴏᴛ Mᴜᴛᴇᴅ Sᴜᴄᴄᴇꜱ", reply_markup=bttn
             )
         except Exception as e:
-            await query.edit_message_text(f"💬 **error:**\n\n`{e}`", reply_markup=bcl)
+            await query.edit_message_text(f"💬 **Eʀʀᴏʀ:**\n\n`{e}`", reply_markup=bcl)
     else:
-        await query.answer("💬 nothing is currently streaming", show_alert=True)
+        await query.answer("💬 Nᴏᴛʜɪɴɢ Iꜱ Cᴜʀᴇɴᴛʟʏ Sᴛʀᴇᴀᴍɪɴɢ", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("cbunmute"))
 async def cbunmute(_, query: CallbackQuery):
     if query.message.sender_chat:
-        return await query.answer("you're an Anonymous Admin !\n\n» revert back to user account from admin rights.")
+        return await query.answer("Yᴏᴜ 're Aɴᴏɴɴʏᴍᴏᴜꜱ Aᴅᴍɪɴ !\n\n» Rᴇᴠᴇʀᴛ Bᴀᴄᴋ Tᴏ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Aɴ Aᴅᴍɪɴ Rɪɢʜᴛꜱ.")
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 only admin with manage voice chats permission that can tap this button !", show_alert=True)
+        return await query.answer("💡 Oɴʟʏ Aᴅᴍɪɴꜱ Uꜱᴇ Tʜɪꜱ Bᴜᴛᴛᴏɴ Bꜱᴅᴋ Cᴏʟʟᴇᴄᴛ Aᴅᴍɪɴ Fɪʀꜱᴛ Aɴᴅ Tᴏᴜᴄʜ Tʜɪꜱ Bᴏᴛᴛᴏɴ !", show_alert=True)
     chat_id = query.message.chat.id
     if chat_id in QUEUE:
         try:
             await call_py.unmute_stream(chat_id)
             await query.edit_message_text(
-                "💬 userbot succesfully unmuted", reply_markup=bttn
+                "💬 Uꜱᴇʀ Bᴏᴛ Uɴᴍᴜᴛᴇᴅ Sᴜᴄᴄᴇꜱ", reply_markup=bttn
             )
         except Exception as e:
-            await query.edit_message_text(f"💬 **error:**\n\n`{e}`", reply_markup=bcl)
+            await query.edit_message_text(f"💬 **Eʀʀᴏʀ:**\n\n`{e}`", reply_markup=bcl)
     else:
-        await query.answer("💬 nothing is currently streaming", show_alert=True)
+        await query.answer("💬 Nᴏᴛʜɪɴɢ Iꜱ Cᴜʀᴇɴᴛʟʏ Sᴛʀᴇᴀᴍɪɴɢ", show_alert=True)
 
 
 @Client.on_message(
@@ -406,12 +406,12 @@ async def change_volume(client, m: Message):
         try:
             await call_py.change_volume_call(chat_id, volume=int(range))
             await m.reply(
-                f"💬 **volume set to** `{range}`%"
+                f"💬 **Vᴏʟᴜᴍᴇ Sᴇᴛ Tᴏ** `{range}`%"
             )
         except Exception as e:
-            await m.reply(f"💬 **error:**\n\n`{e}`")
+            await m.reply(f"💬 **Eʀʀᴏʀ:**\n\n`{e}`")
     else:
-        await m.reply("💬 **nothing in streaming**")
+        await m.reply("💬 **Nᴏᴛʜɪɴɢ Iꜱ Sᴛʀᴇᴀᴍɪɴɢ**")
         
         
-        # whats up  by Herox
+        # whats up  by BADNAM
