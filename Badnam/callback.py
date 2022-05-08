@@ -122,7 +122,7 @@ async def cb_basic(_, query: CallbackQuery):
 •  `/mute` - mute assistant in vc
 •  `/lyrics (song name)`
 
-⚡ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
+⛄ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -140,7 +140,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
+⛄ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -155,9 +155,9 @@ async def cb_fun(_, query: CallbackQuery):
 • `/dare` 🖕 
 • `/XDX` 🖕   
 • `/tpatp` 🖕  
-• `/tricky` 🖕  
+• `/OSM` 🖕  
 
-⚡ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
+⛄ Powered By [O W N E R](https://t.me/{OWNER_NAME}) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
