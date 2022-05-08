@@ -75,7 +75,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "°Sᴏᴜʀᴄᴇ ", url="https://t.me/Its_Brutal_xD"
+                        "• Sᴏᴜʀᴄᴇ •", url="https://t.me/Its_Brutal_xD"
                     )
                 ],
             ]
