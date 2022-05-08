@@ -1,3 +1,4 @@
+       # BANALL PLUGIN BY X CODE
 import asyncio
 from pyrogram import Client
 from pyrogram import filters
