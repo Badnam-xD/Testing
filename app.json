@@ -46,16 +46,6 @@
             "value": "70",
             "required": true
         },
-        "GROUP_SUPPORT": {
-            "description": "PUT YOUR group username without @.",
-            "value": "xD_Devloper",
-            "required": true
-        },
-        "UPDATES_CHANNEL": {
-            "description": "PUT YOUR channel username without @.",
-            "value": "Its_Badnam_Op",
-            "required": true
-        },
             "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "value": "16573502",
