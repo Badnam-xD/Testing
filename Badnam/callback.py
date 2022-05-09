@@ -51,7 +51,7 @@ async def cbmenu(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_start"))
 async def cb_start(_, query: CallbackQuery):
     await query.edit_message_text(
-       f"""ʜᴇʟʟᴏ [✨](https://telegra.ph//file/3cf293683edba89dcb437.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
+       f"""ʜᴇʟʟᴏ [✨](https://telegra.ph//file/08f70fa9464a522ef465d.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
  **────「 [𝐁𝐫𝐮𝐭𝐚𝐥 𝐌𝐮𝐬𝐢𝐜](https://telegra.ph/file/9cc6f3c56940c224cd7bf.jpg) 」────**
  ** ➖➖➖➖➖➖➖➖➖➖➖➖➖ 
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
