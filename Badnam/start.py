@@ -84,7 +84,7 @@ async def start_private(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["start", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["alive", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def start_group(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -94,9 +94,9 @@ async def start_group(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("°Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("°Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/XCodeSupport"),
                 InlineKeyboardButton(
-                    "°Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "°Uᴘᴅᴀᴛᴇs", url=f"https://t.me/XCodeBots"
                 ),
             ]
         ]
