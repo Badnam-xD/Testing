@@ -51,7 +51,7 @@ async def _human_time_duration(seconds):
 )
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
-        photo=f"https://telegra.ph//file/3cf293683edba89dcb437.jpg",
+        photo=f"https://telegra.ph//file/08f70fa9464a522ef465d.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **────「 [𝐁𝐫𝐮𝐭𝐚𝐥 𝐌𝐮𝐬𝐢𝐜](https://telegra.ph/file/9cc6f3c56940c224cd7bf.jpg) 」────**
  ** ➖➖➖➖➖➖➖➖➖➖➖➖➖
