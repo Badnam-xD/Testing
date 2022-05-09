@@ -21,6 +21,7 @@ def menu_markup(user_id):
     [
       InlineKeyboardButton(text="°⏹", callback_data=f'cbstop | {user_id}'),
       InlineKeyboardButton(text="°⏸", callback_data=f'cbpause | {user_id}'),
+      InlineKeyboardButton(text="°▶️", callback_data=f'cbskip | {user_id}'),
       InlineKeyboardButton(text="°▶️", callback_data=f'cbresume | {user_id}'),
     ],
     [
