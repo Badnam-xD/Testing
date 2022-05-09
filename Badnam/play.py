@@ -128,7 +128,7 @@ async def play(c: Client, m: Message):
                   [[
                       InlineKeyboardButton("°↻", callback_data="cbstop"),
                       InlineKeyboardButton("°❚❚", callback_data="cbpause"),
-                      InlineKeyboardButton("°◁", "skip"),
+                      InlineKeyboardButton("°◁", callback_data="cbskip"),
                       InlineKeyboardButton("°⇆", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/XCodeBots"),
