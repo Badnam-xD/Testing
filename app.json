@@ -17,53 +17,53 @@
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token from @BotFather",
-            "value": "5355650552:AAGJ-MCmlg_pIE2D8d9qsa1nCdisWz_HVtI",
+            "value": "",
             "required": true
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username from @BotFather Note put without '@' ",
-            "value": "BrutalxMusicbot",
+            "value": "",
             "required": true
         },
         "OWNER_NAME": {
             "description": "fill YOUR USERNAME WITHOUT '@' .",
-            "value": "Its_BruTal_xD",
+            "value": "",
             "required": false
         },
         "ALIVE_NAME": {
             "description": "PUT YOUR BOT NAME .",
-            "value": "BADNAM-X",
+            "value": "",
             "required": false
             
         },
          "BOT_NAME": {
             "description": "PUT YOUR BOT NAME.",
-            "value": "Badnam",
+            "value": "",
             "required": true
         },
          "DURATION_LIMIT": {
             "description": "PUT YOUR BOT duration time.",
-            "value": "70",
+            "value": "",
             "required": true
         },
             "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
-            "value": "16573502",
+            "value": "",
             "required": true
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
-            "value": "7e5f727b94bdea1676e3679cfee9059a",
+            "value": "",
             "required": true
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
-            "value": "Wtf_Brutal",
+            "value": "",
             "required": true
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space) .",
-            "value": "5154093666",
+            "value": "",
             "required": true
         }
         
