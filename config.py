@@ -29,5 +29,5 @@ IMG_2 = getenv("IMG_2", "https://telegra.ph/file/596f75a52ea9bf0109644.png")
 IMG_3 = getenv("IMG_3", "https://telegra.ph/file/f02efde766160d3ff52d6.png")
 IMG_4 = getenv("IMG_4", "https://telegra.ph/file/be5f551acb116292d15ec.png")
 IMG_5 = getenv("IMG_5", "https://telegra.ph//file/bd7eef1ceb4d8d36d7434.png")
-IMG_6 = getenv("IMG_6", "https://telegra.ph/file/92e8c83e9148c6fea5f3b.png")
+IMG_6 = getenv("IMG_6", "https://telegra.ph//file/bd7eef1ceb4d8d36d7434.png")
 
