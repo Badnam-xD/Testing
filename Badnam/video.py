@@ -4,7 +4,7 @@ import asyncio
 import aiohttp
 import aiofiles
 
-from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6, GROUP_SUPPORT, UPDATES_CHANNEL
+from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2, IMG_6
 from Badnam.inline import stream_markup
 from XDX.fonts import CHAT_TITLE
 from PIL import Image, ImageDraw, ImageFont
@@ -242,11 +242,11 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/XCodeBots"),
+                            InlineKeyboardButton("°Group", url=f"https://t.me/XCodeSupport")
                         ],
                         [
-                            InlineKeyboardButton("🗑 Close", callback_data="cls")
+                            InlineKeyboardButton("✒ Close", callback_data="cls")
                         ]
                     ]
                 )
@@ -319,11 +319,11 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("• Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/XCodeBots"),
+                            InlineKeyboardButton("°Group", url=f"https://t.me/XCodeSupport")
                         ],
                         [
-                            InlineKeyboardButton("🗑 Close", callback_data="cls")
+                            InlineKeyboardButton("✒ Close", callback_data="cls")
                         ]
                     ]
                 )
