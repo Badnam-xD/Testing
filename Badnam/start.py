@@ -7,9 +7,7 @@ from config import (
     ALIVE_NAME,
     BOT_NAME,
     BOT_USERNAME,
-    GROUP_SUPPORT,
     OWNER_NAME,
-    UPDATES_CHANNEL,
 )
 from XDX.decorators import sudo_users_only
 from XDX.filters import command
