@@ -5,7 +5,7 @@ from XDX.decorators import authorized_users_only
 from XDX.filters import command, other_filters
 from XDX.queues import QUEUE, clear_queue
 from XDX.utils import skip_current_song, skip_item
-from config import BOT_USERNAME, GROUP_SUPPORT, IMG_3, UPDATES_CHANNEL
+from config import BOT_USERNAME, IMG_3
 from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
