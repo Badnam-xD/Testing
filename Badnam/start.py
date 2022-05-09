@@ -57,7 +57,7 @@ async def start_private(client: Client, message: Message):
  ** ➖➖➖➖➖➖➖➖➖➖➖➖➖
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  ** ➖➖➖➖➖➖➖➖➖➖➖➖➖
- ‣ Managed By - @Its_Brutal_xD ❥︎
+ ‣ Managed By - [S U P P O R T](https://t.me/XCodeSupport) ❥︎
 """,
         reply_markup=InlineKeyboardMarkup(
             [
