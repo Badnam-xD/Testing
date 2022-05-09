@@ -5,9 +5,7 @@ from config import (
     ASSISTANT_NAME,
     BOT_NAME,
     BOT_USERNAME,
-    GROUP_SUPPORT,
     OWNER_NAME,
-    UPDATES_CHANNEL,
 )
 
 
