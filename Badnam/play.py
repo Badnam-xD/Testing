@@ -126,10 +126,10 @@ async def play(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("°⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("°⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("°⏭️", callback_data="skip"),
-                      InlineKeyboardButton("°▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("°↻", callback_data="cbstop"),
+                      InlineKeyboardButton("°❚❚", callback_data="cbpause"),
+                      InlineKeyboardButton("°◁", callback_data="skip"),
+                      InlineKeyboardButton("°⇆", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("°Cʜᴀɴɴᴇʟ", url=f"https://t.me/XCodeBots"),
                       InlineKeyboardButton("°Group", url=f"https://t.me/XCodeSupport"),
@@ -257,7 +257,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**Downloading....**\n\n0% ■■■■■■■□□□ 100%"
+        f"**Downloading....**\n\n0% 00:00●━━━━━━━━━ 04:59  100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
