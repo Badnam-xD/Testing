@@ -96,10 +96,10 @@ async def cb_cmd(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• Mᴜꜱɪᴄ Cᴏᴍᴍᴀɴᴅꜱ •", callback_data="cb_basic"),
-                    InlineKeyboardButton("• Sᴜᴅᴏ ᴜꜱᴇʀ •", callback_data="cb_advance"),
+                    InlineKeyboardButton("• Mᴜꜱɪᴄ Cᴏᴍᴍᴀɴᴅꜱ", callback_data="cb_basic"),
+                    InlineKeyboardButton("°Sᴜᴅᴏ ᴜꜱᴇʀ •", callback_data="cb_advance"),
                 ],
-                [InlineKeyboardButton("• Sᴇᴍx •", callback_data="cb_fun")],
+                [InlineKeyboardButton("°Sᴇᴍx", callback_data="cb_fun")],
                
                 [InlineKeyboardButton("✒ Bᴀᴄᴋ", callback_data="cb_start")],
             ]
