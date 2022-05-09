@@ -196,6 +196,26 @@ async def cbpause(_, query: CallbackQuery):
             await query.edit_message_text(f"🚫 **Eʀʀᴏʀ:**\n\n`{e}`", reply_markup=bcl)
     else:
         await query.answer("❌ Nᴏᴛʜɪɴɢ Iꜱ Cᴜʀᴇɴᴛʟʏ Sᴛʀᴇᴀᴍɪɴɢ", show_alert=True)
+        
+        
+@Client.on_callback_query(filters.regex("cbskip"))
+async def cbskip(_, query: CallbackQuery):
+    if query.message.sender_chat:
+        return await query.answer("Yᴏᴜ 're Aɴᴏɴɴʏᴍᴏᴜꜱ Aᴅᴍɪɴ !\n\n» Rᴇᴠᴇʀᴛ Bᴀᴄᴋ Tᴏ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Aɴ Aᴅᴍɪɴ Rɪɢʜᴛꜱ.")
+    a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
+    if not a.can_manage_voice_chats:
+        return await query.answer("💡 Oɴʟʏ Aᴅᴍɪɴꜱ Uꜱᴇ Tʜɪꜱ Bᴜᴛᴛᴏɴ Bꜱᴅᴋ Cᴏʟʟᴇᴄᴛ Aᴅᴍɪɴ Fɪʀꜱᴛ Aɴᴅ Tᴏᴜᴄʜ Tʜɪꜱ Bᴏᴛᴛᴏɴ !", show_alert=True)
+    chat_id = query.message.chat.id
+    if chat_id in QUEUE:
+        try:
+            await call_py.skip_stream(chat_id)
+            await query.edit_message_text(
+                "⏸ Tʜᴇ Sᴛʀᴇᴀᴍ Hᴀꜱ Sᴋɪᴘᴘᴇᴅ", reply_markup=bttn
+            )
+        except Exception as e:
+            await query.edit_message_text(f"🚫 **Eʀʀᴏʀ:**\n\n`{e}`", reply_markup=bcl)
+    else:
+        await query.answer("❌ Nᴏᴛʜɪɴɢ Iꜱ Cᴜʀᴇɴᴛʟʏ Sᴛʀᴇᴀᴍɪɴɢ", show_alert=True)
 
 
 @Client.on_callback_query(filters.regex("cbresume"))
