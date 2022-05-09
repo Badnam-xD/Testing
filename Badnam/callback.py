@@ -70,11 +70,11 @@ async def cb_start(_, query: CallbackQuery):
                     "°Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("°Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("°Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/Its_Brutal_xD"),
+                    InlineKeyboardButton("°Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://Badnam-xd.github.io/"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ •", url="https://t.me/Its_Brutal_xD"
+                        "• Sᴏᴜʀᴄᴇ •", url="https://t.me/XCodeSupport"
                     )
                 ],
             ]
