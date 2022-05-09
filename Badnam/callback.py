@@ -29,6 +29,7 @@ async def cbmenu(_, query: CallbackQuery):
                   [[
                       InlineKeyboardButton("°↻", callback_data="cbstop"),
                       InlineKeyboardButton("°❚❚", callback_data="cbpause"),
+                      InlineKeyboardButton("°◁", callback_data="cbskip"),
                       InlineKeyboardButton("°⇆", callback_data="cbresume"),
                   ],[
                       InlineKeyboardButton("°🔇", callback_data="cbmute"),
